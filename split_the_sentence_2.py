@@ -15,7 +15,7 @@ output:
 
 word= input()
 
-sentecnce = word.split()
+sentence = word.split()
 
-for i in sentecnce:
+for i in sentence:
     print(i)

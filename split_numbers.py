@@ -1,5 +1,5 @@
 '''
-Give space-separated numbers,Write a program to printa list containing the given numbers.
+Give space-separated numbers,Write a program to print list containing the given numbers.
 
 example:
 input:

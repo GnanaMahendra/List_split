@@ -21,7 +21,7 @@ for i in range(n):
 
     for i in num:
         
-        list_contain.append(i)
+        list_contain.eppend(i)
 
 final_list = sorted (list_contain)
 

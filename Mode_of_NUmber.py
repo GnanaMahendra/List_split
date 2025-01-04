@@ -25,11 +25,11 @@ Output :
 '''
 
 num = input().split(",")
-s = 0
-a = ""
+largest_frequency  = 0
+mode = ""
 for i in num:
     count = num.count(i)
-    if count > s:
-        s = count
-        a = i
-print(a)
+    if count > largest_frequency:
+        largest_frequency = count
+        mode = i
+print(mode)

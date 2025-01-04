@@ -18,6 +18,19 @@ Input :
     print
 Output :
     [1, 2, 5]
+Input :
+    7
+    print
+    append 8
+    append 7
+    insert 2 1
+    remove 8
+    pop
+    print
+Output :
+    []
+    [7]
+    
 '''
 n = int(input())
 

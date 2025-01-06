@@ -29,6 +29,13 @@ for i in range(1, num +1):
     set_2_multi.add(i * 2)
     set_3_multi.add(i * 3)
 
+<<<<<<< HEAD
+set_deff = set_2_multi - set_3_multi
+set_symmentric_deff = set_2_multi ^ set_3_multi
+
+print(sorted(list(set_deff)))
+print(sorted(list(set_symmentric_deff)))
+=======
 dup = list(set_2_multi)
 
 for i in dup:
@@ -40,3 +47,4 @@ result = sorted(list(set_2_multi | set_3_multi))
 
 print(sorted(list(set_2_multi)))
 print(result)
+>>>>>>> master

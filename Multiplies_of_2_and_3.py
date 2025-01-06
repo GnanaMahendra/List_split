@@ -29,14 +29,8 @@ for i in range(1, num +1):
     set_2_multi.add(i * 2)
     set_3_multi.add(i * 3)
 
-dup = list(set_2_multi)
+set_deff = set_2_multi - set_3_multi
+set_symmentric_deff = set_2_multi ^ set_3_multi
 
-for i in dup:
-    if i % 2 == 0 and i % 3 == 0:
-        set_2_multi.remove(i)
-        set_3_multi.discard(i)
-
-result = sorted(list(set_2_multi | set_3_multi))
-
-print(sorted(list(set_2_multi)))
-print(result)
+print(sorted(list(set_deff)))
+print(sorted(list(set_symmentric_deff)))

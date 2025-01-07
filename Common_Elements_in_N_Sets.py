@@ -21,12 +21,21 @@ Output :
 
     [11, 33]
 
+Input :
+4
+2 4 6 8 10 12
+2 4 8 12 16 10
+2 5 10 12 15 20 4
+12 10 4 8
+
+Output :
+[4, 10, 12]
+
 '''
 def interSection_of_lists(new_list_alla):
-    list_1 = new_list_alla[0]
-    for i in range(1, len(new_list_alla)):
-        list_2 = new_list_alla[i]
-        result = (list_1 & list_2)
+    result= new_list_alla[0]
+    for i in (new_list_alla):
+        result = result.intersection(i)
     return result
 
 
